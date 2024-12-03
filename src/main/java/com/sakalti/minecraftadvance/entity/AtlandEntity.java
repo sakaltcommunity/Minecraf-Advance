@@ -23,6 +23,8 @@ public class AtlandEntity extends Monster {
     public static AttributeSupplier.Builder createAttributes() {
         return Monster.createMonsterAttributes()
             .add(Attributes.MAX_HEALTH, 14.0D)       // 最大HP
+            .add(Attributes.ARMOR, 6.0D)       // 防御力
+            .add(Attributes.ARMOR_TOUGHNESS, 5.5D)       // タフネス
             .add(Attributes.ATTACK_DAMAGE, 8.0D)     // 攻撃力
             .add(Attributes.MOVEMENT_SPEED, 0.25D)   // 移動速度
             .add(Attributes.FOLLOW_RANGE, 16.0D);    // 追跡範囲
