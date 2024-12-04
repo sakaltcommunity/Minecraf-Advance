@@ -22,6 +22,9 @@ public class FireSpiderEntity extends Monster {
             .add(Attributes.MAX_HEALTH, 34.0D)        // HP
             .add(Attributes.ATTACK_DAMAGE, 6.0D)      // 攻撃力
             .add(Attributes.MOVEMENT_SPEED, 0.3D);    // 移動速度
+            .add(Attributes.FOLLOW_RANGE, 24.0D)        // 敵対してくる範囲
+            .add(Attributes.ARMOR, 3.0D)        // 防御力
+            .add(Attributes.ARMOR_TOUGHNESS, 6.0D)        // 防御強度
     }
 
     @Override
